@@ -27,6 +27,7 @@ describe('HelloWorld.vue', () => {
         }
       })
       expect(wrapper.text()).to.include(msg)
+      wrapper.unmount()
     })
   }
 })
